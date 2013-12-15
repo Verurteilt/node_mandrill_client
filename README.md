@@ -111,3 +111,8 @@ Thank you :D
 #Do you want to see something new in mandrill_client? 
 
 Send an email to mini.guero@hotmail.com and tell me or contribute with it :D
+
+#Suggestions etc.
+
+mini.guero@hotmail.com
+@eljeic - Twitter
