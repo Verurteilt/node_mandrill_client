@@ -76,7 +76,7 @@ as you can see the Methods are the same than Mandrill App api but without "Calls
 	MandrillClient.users.info(data); // returns the info user
 	MandrillClient.users.info("xml", data);  // returns the info user
 	MandrillClient.users.info("php", data); // returns the info user
-	MandrillClient.users.ping2(["json","xml","php"], data); // returns {"PING!": "PONG!"}
+	MandrillClient.users.ping2(["json","xml","php"], data); // returns {"PING!": "PONG!"}, also returns the xml and php {"PING!": "PONG!"} version
 	MandrillClient.templates.add("php", opts, test); // returns success message
 	MandrillClient.templates.delete("php", {"name": "Example Template"}, test); // returns success message
 
