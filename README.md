@@ -91,9 +91,12 @@ as you can see the syntax is:
 > ## Syntax
 
 > **MandrillClient.method.submethod(*[string or array : type_response]*, *[Object : options]*, *function: callback*)**
+
 > **Type Response**: The response type of your request it can be "xml", "php" or "json" even better it can be the three ["xml", "json", "php"] the default one is "json", for submethods like **add, update, delete** you only can use one, for now we have no support for **yaml**, because any .yaml URL returns a statusCode == 200 but no response body, we are working on it, if you know why, tell us please. Optional.
+
 > **Options**: Options to send in the body, see the example above. Optional.
-> ** Callback **: In every request you have to pass a callback, this one must receives an argument, this one is going to be the mandrill_response it can be either error message or success message, see the example above.
+
+> **Callback**: In every request you have to pass a callback, this one must receives an argument, this one is going to be the mandrill_response it can be either error message or success message, see the example above.
 
 
 
