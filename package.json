@@ -1,0 +1,14 @@
+{
+	"name": "mandrill_client",
+	"version": "0.0.1",
+	"description": "A simple client for Mandrill API",
+	"author": "Victor Castillo <mini.guero@hotmail.com>",
+	"main": "mandrill_client.js",
+	"engines":{
+		"node": ">= 0.8.2"
+	},
+	"dependencies":{
+		"superagent": "*",
+		"underscore": "*"
+	}
+}
