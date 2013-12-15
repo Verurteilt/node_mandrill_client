@@ -1,6 +1,6 @@
 {
   "name": "mandrill_client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple client for Mandrill API",
   "author": "Victor Castillo <mini.guero@hotmail.com>",
   "main": "mandrill_client.js",
