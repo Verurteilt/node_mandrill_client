@@ -83,7 +83,7 @@ as you can see the Methods are the same than Mandrill App api but without "Calls
     //ERROR EXAMPLE
 	
 	var MandrillClient_2 = new mandrill("FAKE_API");
-	MandrillClient.users.info(data); // returns {"status":"error","code":-1,"name":"Invalid_Key","message":"Invalid API key"}
+	MandrillClient_2.users.info(data); // returns {"status":"error","code":-1,"name":"Invalid_Key","message":"Invalid API key"}
 
 
 as you can see the syntax is:
