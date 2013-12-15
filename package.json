@@ -1,23 +1,35 @@
 {
-	"name": "mandrill_client",
-	"version": "0.0.1",
-	"description": "A simple client for Mandrill API",
-	"author": "Victor Castillo <mini.guero@hotmail.com>",
-	"main": "mandrill_client.js",
-	"engines":{
-		"node": ">= 0.8.2"
-	},
-	"dependencies":{
-		"superagent": "*",
-		"underscore": "*"
-	},
-	"repository" : {
-        "type" : "git",
-        "url" : "https://github.com/Verurteilt/node_mandrill_client.git"
-    },
-    "bugs": {
-        "url": "https://github.com/Verurteilt/node_mandrill_client/issues"
-    },
-   "homepage":  "https://github.com/Verurteilt/node_mandrill_client.git",
-   "keywords": ["mandrill", "node mandrill", "mandrill_client", "node_mandrill_client", "email api", "send emial", "email", "mailchimp", "mailchimp mandrill", "mandrillapp", "mandrill app"]
+  "name": "mandrill_client",
+  "version": "0.0.2",
+  "description": "A simple client for Mandrill API",
+  "author": "Victor Castillo <mini.guero@hotmail.com>",
+  "main": "mandrill_client.js",
+  "engines": {
+    "node": ">= 0.8.2"
+  },
+  "dependencies": {
+    "superagent": "*",
+    "underscore": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Verurteilt/node_mandrill_client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Verurteilt/node_mandrill_client/issues"
+  },
+  "homepage": "https://github.com/Verurteilt/node_mandrill_client.git",
+  "keywords": [
+    "mandrill",
+    "node mandrill",
+    "mandrill_client",
+    "node_mandrill_client",
+    "email api",
+    "send emial",
+    "email",
+    "mailchimp",
+    "mailchimp mandrill",
+    "mandrillapp",
+    "mandrill app"
+  ]
 }
