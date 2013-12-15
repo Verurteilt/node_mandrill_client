@@ -10,5 +10,14 @@
 	"dependencies":{
 		"superagent": "*",
 		"underscore": "*"
-	}
+	},
+	"repository" : {
+        "type" : "git",
+        "url" : "https://github.com/Verurteilt/node_mandrill_client.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Verurteilt/node_mandrill_client/issues"
+    },
+   "homepage":  "https://github.com/Verurteilt/node_mandrill_client.git",
+   "keywords": ["mandrill", "node mandrill", "mandrill_client", "node_mandrill_client", "email api", "send emial", "email", "mailchimp", "mailchimp mandrill", "mandrillapp", "mandrill app"]
 }
