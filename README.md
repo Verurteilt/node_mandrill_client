@@ -73,17 +73,17 @@ as you can see the Methods are the same than Mandrill App api but without "Calls
 	    ]
 	};
 
-	MandrillClient.users.info(data); // returns the info user
-	MandrillClient.users.info("xml", data);  // returns the info user
-	MandrillClient.users.info("php", data); // returns the info user
-	MandrillClient.users.ping2(["json","xml","php"], data); // returns {"PING!": "PONG!"}, also returns the xml and php {"PING!": "PONG!"} version
-	MandrillClient.templates.add("php", opts, test); // returns success message
-	MandrillClient.templates.delete("php", {"name": "Example Template"}, test); // returns success message
+	MandrillClient.users.info(callback); // returns the info user
+	MandrillClient.users.info("xml", callback);  // returns the info user
+	MandrillClient.users.info("php", callback); // returns the info user
+	MandrillClient.users.ping2(["json","xml","php"], callback); // returns {"PING!": "PONG!"}, also returns the xml and php {"PING!": "PONG!"} version
+	MandrillClient.templates.add("php", opts, callback); // returns success message
+	MandrillClient.templates.delete("php", {"name": "Example Template"}, callback); // returns success message
 
     //ERROR EXAMPLE
 	
 	var MandrillClient_2 = new mandrill("FAKE_API");
-	MandrillClient_2.users.info(data); // returns {"status":"error","code":-1,"name":"Invalid_Key","message":"Invalid API key"}
+	MandrillClient_2.users.info(callback); // returns {"status":"error","code":-1,"name":"Invalid_Key","message":"Invalid API key"}
 
 
 as you can see the syntax is:
